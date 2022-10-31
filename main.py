@@ -31,7 +31,7 @@ else:
     labels,ret = predict(file_up)
 
     st.success('successful prediction')
-    st.write("Prediction (index, name)", labels, ",   Score: ", ret)
+    st.write("Prediction ", labels, ",   Score: ", ret)
     st.write("")
 
 
