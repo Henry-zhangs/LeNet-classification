@@ -5,7 +5,7 @@ from predict import predict
 
 st.set_option('deprecation.showfileUploaderEncoding', False)
 
-st.title("VisualFeast Simple Image Classification App")
+st.title("CIFAR10 Image Classification App")
 st.write("")
 st.write("")
 
