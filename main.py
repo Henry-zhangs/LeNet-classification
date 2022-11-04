@@ -20,7 +20,7 @@ if file_up is None:
 
     labels, ret = predict(image)
     st.success('successful prediction')
-    st.write("Prediction (index, name)", labels, ",   Score: ", ret)
+    st.write("Prediction ：", labels, ",   Score: ", ret)
     st.write("")
 
 else:
